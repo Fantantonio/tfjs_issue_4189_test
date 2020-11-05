@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "start": "run --x64 --mirror https://dl.nwjs.io/ ."
+  },
+  "author": "Test",
+  "window": {
+    "width": 1024,
+    "height": 640
+  },
+  "build": {
+    "nwVersion": "0.48.3"
+  },
+  "devDependencies": {
+    "nw": "^0.48.3-sdk",
+    "nwjs-builder-phoenix": "^1.15.0"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^2.7.0"
+  }
+}
